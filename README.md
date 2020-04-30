@@ -10,7 +10,3 @@
 {% endfor %}
 
 
-{% for product in collection.products %}
-  {{ product.title }}
-{% endfor %}
-
