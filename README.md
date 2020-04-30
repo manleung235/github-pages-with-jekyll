@@ -1,6 +1,6 @@
 # contributor
 
-{% for post in collections.post %}
+{% for post in collections.posts %}
   <li>{{ post.data.user }}</li>
   
   <li>{{ post.name }}</li>
