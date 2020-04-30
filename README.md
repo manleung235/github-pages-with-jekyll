@@ -1,6 +1,6 @@
 # contributor
 
-{% for post in sites.posts %}
+{% for post in posts %}
   <p>{{ post.user }}</p>
   
   <p>{{ post.name }}</p>
