@@ -1,12 +1,7 @@
 # contributor
-
-{% for post in collections.posts %}
-  <li>{{ post.data.user }}</li>
-  
-  <li>{{ post.name }}</li>
-  
-  <p>{{ post.content | markdownify }}</p>
-  
+{% for stu in site.stu %}
+  <h2>{{ stu.user }}-{{ stu.name }}</h2>
+ - <p>{{ stu.content | markdownify }}</p>
 {% endfor %}
 
 
