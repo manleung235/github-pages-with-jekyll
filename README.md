@@ -2,9 +2,9 @@
 
 {% for post in site.posts %}
 
-  {{ post.user }}
+  <p>{{ post.user }}</p>
   
-  {{ post.name }}
+  <p>{{ post.name }}</p>
   
   <p>{{ post.content | markdownify }}</p>
   
